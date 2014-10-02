@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="javascripts/bower_components/chartist/libdist/chartist.min.css">
+        <script src="javascripts/bower_components/chartist/libdist/chartist.min.js"></script>
+        <link rel="stylesheet" href="stylesheets/charts.css">
+
+    </head>
+
+    <body>
+    <div class="graph-container">
+        <div class="graph1">
+            <h2>What the DMC is being used for:</h2>
+            <div class="ct-chart ct-major-seventh longData"></div>
+        </div>
+        <div class="graph2">
+            <h2>What the DMC Equipment helpful:</h2>
+            <div class="ct-chart ct-major-seventh yesNo"></div>
+        </div>
+    </div>
+
+
+    </body>
+    <script type="text/javascript">
+        var jsonData = <%- dataJSON %>;
+    </script>
+    <script src="javascripts/piechart.js"></script>
+
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-color:cornflowerblue;
+}
+
+.graph1, .graph2 {
+    text-align: center;
+    display: inline-block;
+    margin-left: 55px;
+    /*width: 500px;*/
+    width:70%;
+}
+
+.ct-label {
+    fill: white !important;
+}
+
+.ct-slice {
+    background: none !important;
+}
+
+/*.graph-container {*/
+    /*display: inline-block;*/
+    /*margin: auto 0;*/
+    /*width: 50%;*/
+/*}*/
+
+
+

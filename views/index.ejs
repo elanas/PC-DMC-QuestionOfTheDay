@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html ng-app="questionPageApp">
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/question-page-styling.css' />
+
+        <script src="javascripts/bower_components/angular/angular.js"></script>
+        <script src="javascripts/bower_components/angular-route/angular-route.js"></script>
+        <script src="javascripts/question-page.js"></script>
+    </head>
+
+    <body ng-controller="questionPageController as ctrl">
+
+        <div class="page-container">
+            <div class="header">
+                <div class="logo">
+                    <!--<div class="dmc-big">DMC</div>-->
+                    <!--<div>Digital Media Center</div>-->
+                    <img src="images/dmc-logo.png">
+                </div>
+                <div class="question-header">
+                    Question of the Day
+                </div>
+            </div>
+            <hr>
+
+            <div class="question-container">
+                <div class="question-text">
+                    <!--Was the equipment you checked out the right tool for the job?-->
+                    <!--For what purpose did you use DMC equipment?-->
+                    {{q.q}}
+                    <!--Please check all that apply.-->
+                    <!--eventually will pull from database of questions-->
+
+                </div>
+            </div>
+
+            <!--RESPONSE FOR YES/NO QUESTIONS-->
+            <div ng-show="q.type==0" class="response-container yes-no">
+                <a ng-click="yesno = 'yes'" ng-class="{'button-selected': yesno == 'yes'}" class='button'>Yes</a>
+                <a ng-click="yesno = 'no'" ng-class="{'button-selected': yesno == 'no'}" class='button'>No</a>
+            </div>
+
+            <!--<ui class="response-container checkbox-grid">-->
+                <!--<li><input type="checkbox" class="styled" /> Student group activity </li>-->
+                <!--<li><input type="checkbox" class="styled" /> To enhance campus community </li>-->
+                <!--<li><input type="checkbox" class="styled" /> Baltimore community service </li>-->
+                <!--<li><input type="checkbox" class="styled" /> Self-promotion </li>-->
+                <!--<li><input type="checkbox" class="styled" /> Academic </li>-->
+                <!--<li><input type="checkbox" class="styled" /> Personal learning </li>-->
+                <!--<li><input type="checkbox" class="styled" /> Entertainment relaxation </li>-->
+            <!--</ui>-->
+
+            <div ng-show="q.type == 1" class="response-container grid">
+                <a class='button button-check' ng-click="answersChecked[0] = !answersChecked[0]"
+                    ng-class="{'button-selected':answersChecked[0] == true}">{{answers[0]}}</a>
+                <a class='button button-check' ng-click="answersChecked[1] = !answersChecked[1]"
+                   ng-class="{'button-selected':answersChecked[1] == true}">{{answers[1]}}</a>
+                <a class='button button-check' ng-click="answersChecked[2] = !answersChecked[2]"
+                   ng-class="{'button-selected':answersChecked[2] == true}">{{answers[2]}}</a>
+                <a class='button button-check' ng-click="answersChecked[3] = !answersChecked[3]"
+                   ng-class="{'button-selected':answersChecked[3] == true}">{{answers[3]}}</a>
+                <a class='button button-check' ng-click="answersChecked[4] = !answersChecked[4]"
+                   ng-class="{'button-selected':answersChecked[4] == true}">{{answers[4]}}</a>
+                <a class='button button-check' ng-click="answersChecked[5] = !answersChecked[5]"
+                   ng-class="{'button-selected':answersChecked[5] == true}">{{answers[5]}}</a>
+                <a class='button button-check' ng-click="answersChecked[6] = !answersChecked[6]"
+                   ng-class="{'button-selected':answersChecked[6] == true}">{{answers[6]}}</a>
+
+                <!--<a class='button button-check'>yes</a>-->
+            </div>
+
+            <a ng-click="refresh()" class="button submit-button">Submit</a>
+
+            <!--<div class="question-container">-->
+                <!--<!--Insert a Question here.-->
+                <!--<%= question %>-->
+            <!--</div>-->
+
+            <!--<div class="answer-options">-->
+                <!--<div class="button-container">-->
+                    <!--<a ng-click="ctrl.test1()" class='button'>First</a>-->
+                    <!--<a ng-click="ctrl.test2()" class='button'>Second</a>-->
+                <!--</div>-->
+
+                <!--<!--Yes/No <br>-->
+                <!--<!--Multiple choice <br>-->
+                <!--<!--Free response-->
+
+            <!--</div>-->
+
+
+        </div>
+
+    </body>
+
+
+</html>
+
+
+<!--<p>Welcome to</p>-->

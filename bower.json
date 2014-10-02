@@ -1,0 +1,26 @@
+{
+  "name": "QuestionOfTheDayBASIC",
+  "version": "0.0.0",
+  "authors": [
+    "Elana Stroud <estroud1@jhu.edu>"
+  ],
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.23",
+    "angular-route": "latest",
+    "bootstrap": "*",
+    "chartist": "*"
+  }
+}
