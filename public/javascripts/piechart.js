@@ -62,6 +62,12 @@ function cleanArray(actual){
     return newArray;
 }
 
+console.log(longAnswers);
+
+var correctAnswers = ["Test 1", "test 2", "test 3"];
+
+console.log(cleanArray(longDataSeries));
+
 //pie charts for uses
 var data = {
     labels: longAnswers,
@@ -93,7 +99,8 @@ Chartist.Pie('.longData', data, options, responsiveOptions);
 
 //pie charts for yes/no
 var data1 = {
-    labels: ["YES", "NO"],
+    labels: ["YES - " + Math.round((yesnoData.yes/(yesnoData.yes + yesnoData.no))*100) + "%", "NO - " +
+        Math.round((yesnoData.no/(yesnoData.yes + yesnoData.no))*100) + "%"],
     series: [yesnoData.yes , yesnoData.no]
 };
 
@@ -107,7 +114,7 @@ var responsiveOptions1 = [
     ['screen and (min-width: 640px)', {
         chartPadding: 30,
         labelOffset: 100,
-        labelDirection: 'explode',
+        labelDirection: 'implode',
         labelInterpolationFnc: function(value) {
             return value;
         }

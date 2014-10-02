@@ -2,27 +2,32 @@ body {
     background-color:cornflowerblue;
 }
 
-.graph1, .graph2 {
+h2 {
     text-align: center;
-    display: inline-block;
-    margin-left: 55px;
-    /*width: 500px;*/
-    width:70%;
 }
+
+.graph1, .graph2 {
+    display: inline-block;
+    margin: 10%;
+}
+
+/*.graph1 {*/
+    /*float:left;*/
+/*}*/
 
 .ct-label {
     fill: white !important;
 }
 
-.ct-slice {
-    background: none !important;
-}
+/*.ct-slice {*/
+    /*background: none !important;*/
+/*}*/
 
-/*.graph-container {*/
+.graph-container {
     /*display: inline-block;*/
     /*margin: auto 0;*/
     /*width: 50%;*/
-/*}*/
+}
 
 
 
