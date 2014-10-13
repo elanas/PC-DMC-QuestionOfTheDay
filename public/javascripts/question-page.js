@@ -2,8 +2,6 @@
  * Created by elanastroud on 9/3/14.
  */
 
-console.log("print test");
-
 (function () {
 
     var app = angular.module("questionPageApp", ['ngRoute']);
@@ -51,11 +49,11 @@ console.log("print test");
                 }
                 console.log("am i prinitng?")
                 console.log($scope.q);
-                $http.post('/testPost', $scope.q).success(function() {
-                    console.log("I am posting!")
-                }).error(function() {
-                    console.log("I failed to post, caused an error");
-                });
+//                $http.post('/testPost', $scope.q).success(function() {
+//                    console.log("I am posting!")
+//                }).error(function() {
+//                    console.log("I failed to post, caused an error");
+//                });
             }, 0);
             $window.location.reload();
         }
