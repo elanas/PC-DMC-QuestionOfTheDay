@@ -31,7 +31,7 @@ var exportToCSV = function() {
     spawn('.\\bin\\mongoexport', [
         '--db', 'questionDb', '--collection', 'test', '--csv',
         '--fields', 'question,answers',
-        '--out', '..\\windowstestcsv.csv'
+        '--out', 'test.csv'
     ]);
 
 
