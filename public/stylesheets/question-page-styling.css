@@ -17,7 +17,7 @@ body {
 
 .question-header {
     float: right;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-right: 16%;
     font-size: 50px;
     color: #eb433d;
@@ -50,7 +50,8 @@ hr {
 }
 
 .question-container div {
-    font-family: Arial Rounded MT Bold;
+    /*font-family: Arial Rounded MT Bold;*/
+    font-family: cursive;
     text-align: center;
     font-size: 29px;
 }
@@ -89,7 +90,8 @@ hr {
     text-shadow: #7ea4bd 0 1px 0;
     color: #303030;
     font-size: 35px;
-    font-family: Arial Rounded MT Bold, serif;
+    /*font-family: Arial Rounded MT Bold, serif;*/
+    font-family: cursive;
     text-decoration: none;
     vertical-align: middle;
 }
