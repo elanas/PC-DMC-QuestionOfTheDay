@@ -47,6 +47,16 @@ hr {
 .question-container {
     width: 53%;
     margin: 3% 25%;
+
+    background-color: #333;
+    width: 626px;
+    position: absolute;
+    left: 290px;
+    text-align: center;
+    height: 88px;
+    top: -4.5px;
+    color: white;
+
 }
 
 .question-container div {
