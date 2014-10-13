@@ -34,10 +34,12 @@ var exportToCSV = function() {
 //    console.log(db.collections.count());
     console.log("I am in the export function")
     var x = 0;
-    db['test'].find().forEach(function(doc) {
-        console.log(x);
-        x++;
-    })
+    setTimeout(function() {
+        db['test'].find().forEach(function(doc) {
+            console.log(x);
+            x++;
+        })
+    }, 0);
 
 }
 
