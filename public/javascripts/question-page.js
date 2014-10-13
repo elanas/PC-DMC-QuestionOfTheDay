@@ -37,6 +37,23 @@
 
         $scope.testprint = function() {
             console.log("button clicked!");
+            if ($scope.q.type == 0) {
+//                   console.log($scope.yesno);
+                $scope.q.a.push($scope.yesno);
+            } else if ($scope.q.type == 1) {
+                for (var x = 0; x < $scope.answersChecked.length; x++) {
+                    if ($scope.answersChecked[x] == true) {
+                        $scope.q.a.push($scope.answers[x]);
+                    }
+                }
+            }
+            console.log("am i prinitng?");
+            console.log($scope.q);
+//                $http.post('/testPost', $scope.q).success(function() {
+//                    console.log("I am posting!")
+//                }).error(function() {
+//                    console.log("I failed to post, caused an error");
+//                });
         }
 
         $scope.refresh = function() {
