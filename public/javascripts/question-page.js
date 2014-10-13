@@ -5,7 +5,7 @@
 (function () {
 
     var app = angular.module("questionPageApp", ['ngRoute']);
-
+    var ran = 0;
     app.controller('questionPageController', ['$window', '$scope', '$http', '$timeout', '$route', function ($window, $scope, $http, $timeout, $route) {
 
 //        this.questions = {question: 'question1'}
@@ -13,7 +13,8 @@
         $scope.questions = {pool:[{q:'Was the equipment you checked out the right tool for the job?', type:0, a:[]},
             {q:' For what purpose did you use DMC equipment?', type:1, a:[]}]};
 //
-        var ran = (Math.random() * 1).toFixed(0)
+//        var ran = (Math.random() * 1).toFixed(0)
+        ran = !ran;
         $scope.q = $scope.questions.pool[ran];
 //
         $scope.yesno = '';
