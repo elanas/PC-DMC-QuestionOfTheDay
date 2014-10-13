@@ -61,8 +61,8 @@ var num = 1;
 
             $(".response-container").css('visibility', 'hidden');
             setTimeout(function() {
-                $(".response-container").css('visibility', 'visible');
-            }, 30);
+//                $(".response-container").css('visibility', 'visible');
+            }, 50);
 
             $window.location.reload();
 
