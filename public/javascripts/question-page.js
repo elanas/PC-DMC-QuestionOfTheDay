@@ -48,10 +48,12 @@
                         }
                     }
                 }
-//                console.log($scope.q);
-//                $http.post('/testPost', $scope.q).success(function() {
-//                    console.log('test1 posting');
-//                });
+                console.log($scope.q);
+                $http.post('/testPost', $scope.q).success(function() {
+                    console.log('test1 posting');
+                }).error(function() {
+                    console.log("I failed to post, caused an error");
+                });
             }, 0);
             $window.location.reload();
         }
