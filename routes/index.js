@@ -19,10 +19,10 @@ router.get('/', function(req, res) {
 });
 
 router.post('/testPost', function(req, res) {
-    console.log(req.body);
+    console.log("I AM POSTING!!!!");
 
-    db.saveResponse(req.body);
-    db.exportToCSV();
+//    db.saveResponse(req.body);
+//    db.exportToCSV();
     res.end();
 });
 
