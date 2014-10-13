@@ -21,7 +21,7 @@ var test = function() {
 
 var saveResponse = function(question) {
     console.log('saving response');
-    db['test'].insert({"question": question.q, "answers": question.a});
+    db['test'].insert({"question": question.q, "answers": question.a, date: new Date()});
 
 }
 
