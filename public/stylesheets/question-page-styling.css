@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    font-family: Arial Rounded MT Bold;
+    /*font-family: Arial Rounded MT Bold;*/
+    font-family: cursive;
 }
 
 .page-container {
@@ -20,6 +21,7 @@ body {
     margin-right: 16%;
     font-size: 50px;
     color: #eb433d;
+    font-weight: bold;
 }
 
 .logo {
