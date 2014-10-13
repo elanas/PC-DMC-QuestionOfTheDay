@@ -31,7 +31,7 @@ var exportToCSV = function() {
 //        '--fields', 'question,answers',
 //        '--out', 'test.csv'
 //    ]);
-    console.log(db['test'].count());
+    console.log(db.collections.count());
 }
 
 exports.test = test;
