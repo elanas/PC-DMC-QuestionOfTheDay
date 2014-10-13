@@ -62,7 +62,7 @@ var num = 1;
             $(".response-container").css('visibility', 'hidden');
             setTimeout(function() {
                 $(".response-container").css('visibility', 'visible');
-            }, 300);
+            }, 30);
 
             $window.location.reload();
 
