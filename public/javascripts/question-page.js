@@ -49,13 +49,13 @@
             }
             console.log("am i prinitng?");
             console.log($scope.q);
-                $http.post('/testPost', $scope.q).success(function() {
-                    console.log("I am posting!")
-//                    $window.location.reload();
-
-                }).error(function() {
-                    console.log("I failed to post, caused an error");
-                });
+//                $http.post('/testPost', $scope.q).success(function() {
+//                    console.log("I am posting!")
+////                    $window.location.reload();
+//
+//                }).error(function() {
+//                    console.log("I failed to post, caused an error");
+//                });
 
         }
 
