@@ -26,7 +26,7 @@ var saveResponse = function(question) {
 }
 
 var exportToCSV = function() {
-    var x = ".." + "'\'" + "test.csv";
+    var x = ".." + "\\" + "test.csv";
     console.log(x);
 //    spawn('mongoexport', [
 //        '--db', 'questionDb', '--collection', 'test', '--csv',
