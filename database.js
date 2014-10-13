@@ -31,9 +31,9 @@ var exportToCSV = function() {
 //        '--fields', 'question,answers',
 //        '--out', 'test.csv'
 //    ]);
-    console.log(db.collections.count());
+//    console.log(db.collections.count());
     console.log("I am in the export function")
-    db['test'].find({});
+//    db['test'].find({});
 
 }
 
