@@ -14,7 +14,11 @@
             {q:' For what purpose did you use DMC equipment?', type:1, a:[]}]};
 //
 //        var ran = (Math.random() * 1).toFixed(0)
-        ran = !ran;
+        if(ran == 0) {
+            ran = 1;
+        } else {
+            ran = 0;
+        }
         $scope.q = $scope.questions.pool[ran];
 //
         $scope.yesno = '';
