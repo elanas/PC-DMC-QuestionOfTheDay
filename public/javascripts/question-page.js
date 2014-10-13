@@ -18,7 +18,11 @@ var num = 1;
 
 
 //        num = 0;
-        num = !num;
+        if (num === 1) {
+            num = 0;
+        } else {
+            num = 1
+        }
 
 
         $scope.q = $scope.questions.pool[num];
