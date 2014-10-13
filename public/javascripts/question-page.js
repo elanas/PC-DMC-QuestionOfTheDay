@@ -35,6 +35,10 @@
 
         console.log("outside refresh");
 
+        $scope.testprint = function() {
+            console.log("button clicked!");
+        }
+
         $scope.refresh = function() {
 //            var ran = (Math.random() * 1).toFixed(0)
 //            $scope.q = $scope.questions.pool[ran];
