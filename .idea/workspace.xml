@@ -46,8 +46,8 @@
       <file leaf-file-name="database.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4856397" vertical-offset="234" max-vertical-offset="705">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="2" selection-end-line="32" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.75979114" vertical-offset="234" max-vertical-offset="735">
+              <caret line="35" column="11" selection-start-line="30" selection-start-column="5" selection-end-line="35" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -746,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4856397" vertical-offset="234" max-vertical-offset="705">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="2" selection-end-line="32" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.75979114" vertical-offset="234" max-vertical-offset="735">
+          <caret line="35" column="11" selection-start-line="30" selection-start-column="5" selection-end-line="35" selection-end-column="11" />
           <folding />
         </state>
       </provider>
