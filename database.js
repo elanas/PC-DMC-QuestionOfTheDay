@@ -33,6 +33,10 @@ var exportToCSV = function() {
 //    ]);
 //    console.log(db.collections.count());
     console.log("I am in the export function")
+    db['test'].find().forEach(function(doc) {
+        console.log('WORKING IN EACH!');
+    })
+
 }
 
 exports.test = test;
