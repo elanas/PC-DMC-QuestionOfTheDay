@@ -48,10 +48,10 @@
                         }
                     }
                 }
-                console.log($scope.q);
-                $http.post('/testPost', $scope.q).success(function() {
-                    console.log('test1 posting');
-                });
+//                console.log($scope.q);
+//                $http.post('/testPost', $scope.q).success(function() {
+//                    console.log('test1 posting');
+//                });
             }, 0);
             $window.location.reload();
         }
