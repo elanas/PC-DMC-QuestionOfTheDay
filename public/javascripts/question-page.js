@@ -13,19 +13,11 @@ var num = 1;
 
         $scope.questions = {pool:[{q:'Was the equipment you checked out the right tool for the job?', type:0, a:[]},
             {q:' For what purpose did you use DMC equipment?', type:1, a:[]}]};
-//
-//        var ran = (Math.random() * 1).toFixed(0)
+
+        var ran = (Math.random() * 1).toFixed(0)
 
 
-//        num = 0;
-        if (num === 1) {
-            num = 0;
-        } else {
-            num = 1
-        }
-
-
-        $scope.q = $scope.questions.pool[num];
+        $scope.q = $scope.questions.pool[ran];
 //
         $scope.yesno = '';
         this.test1 = function() {
@@ -66,7 +58,14 @@ var num = 1;
                 }).error(function() {
                     console.log("I failed to post, caused an error");
                 });
-            $window.location.reload();
+
+            $(".response-container").css('visibility', 'hidden');
+            setTimeout(function() {
+                $(".response-container").css('visibility', 'visible');
+                $window.location.reload();
+
+            }, 300);
+
 
         }
 
