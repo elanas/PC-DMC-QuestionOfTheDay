@@ -62,9 +62,9 @@ var num = 1;
             $(".response-container").css('visibility', 'hidden');
             setTimeout(function() {
                 $(".response-container").css('visibility', 'visible');
-                $window.location.reload();
-
             }, 300);
+
+            $window.location.reload();
 
 
         }
