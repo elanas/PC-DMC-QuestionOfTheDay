@@ -33,9 +33,12 @@
 
         $scope.answersChecked = [0,0,0,0,0,0,0]
 
+        console.log("outside refresh");
+
         $scope.refresh = function() {
 //            var ran = (Math.random() * 1).toFixed(0)
 //            $scope.q = $scope.questions.pool[ran];
+            console.log("am i refreshing?");
             setTimeout(function() {
                 if ($scope.q.type == 0) {
 //                   console.log($scope.yesno);
@@ -47,7 +50,7 @@
                         }
                     }
                 }
-                console.log("am i prinitng?")
+                console.log("am i prinitng?");
                 console.log($scope.q);
 //                $http.post('/testPost', $scope.q).success(function() {
 //                    console.log("I am posting!")
