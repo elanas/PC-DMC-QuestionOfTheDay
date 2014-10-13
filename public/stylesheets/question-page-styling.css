@@ -35,7 +35,7 @@ body {
 
 .logo {
     float:left;
-    margin-left: 15%;
+    margin-left: 12%;
 
     height: 88px;
     background-color: #303030;
@@ -51,7 +51,7 @@ body {
     position: absolute;
     margin-top: 0;
     border-radius: 3px;
-    left: 161px;
+    left: 129px;
 }
 
 hr {
