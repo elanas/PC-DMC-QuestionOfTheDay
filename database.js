@@ -36,7 +36,7 @@ var exportToCSV = function() {
 
 
 
-
+    console.log("technically exporting");
 //    console.log(db.collections.count());
 //    console.log("I am in the export function")
 //    db['test'].find({});
