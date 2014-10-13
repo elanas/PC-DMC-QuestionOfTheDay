@@ -31,7 +31,7 @@ var exportToCSV = function() {
     spawn('mongoexport', [
         '--db', 'questionDb', '--collection', 'test', '--csv',
         '--fields', 'question,answers',
-        '--out', x
+        '--out', '..\\test.csv'
     ]);
 //    console.log(db.collections.count());
 //    console.log("I am in the export function")
