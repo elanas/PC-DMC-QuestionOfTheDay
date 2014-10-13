@@ -2,10 +2,11 @@
  * Created by elanastroud on 9/3/14.
  */
 
+var num = 1;
+
 (function () {
 
     var app = angular.module("questionPageApp", ['ngRoute']);
-    var ran = 0;
     app.controller('questionPageController', ['$window', '$scope', '$http', '$timeout', '$route', function ($window, $scope, $http, $timeout, $route) {
 
 //        this.questions = {question: 'question1'}
@@ -14,12 +15,11 @@
             {q:' For what purpose did you use DMC equipment?', type:1, a:[]}]};
 //
 //        var ran = (Math.random() * 1).toFixed(0)
-        if(ran == 0) {
-            ran = 1;
-        } else {
-            ran = 0;
-        }
-        $scope.q = $scope.questions.pool[ran];
+
+
+//        num = 0;
+
+        $scope.q = $scope.questions.pool[num];
 //
         $scope.yesno = '';
         this.test1 = function() {
