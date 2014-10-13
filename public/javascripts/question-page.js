@@ -2,6 +2,7 @@
  * Created by elanastroud on 9/3/14.
  */
 
+console.log("print test");
 
 (function () {
 
