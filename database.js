@@ -26,11 +26,11 @@ var saveResponse = function(question) {
 }
 
 var exportToCSV = function() {
-    spawn('mongoexport', [
-        '--db', 'questionDb', '--collection', 'test', '--csv',
-        '--fields', 'question,answers',
-        '--out', 'test.csv'
-    ]);
+//    spawn('mongoexport', [
+//        '--db', 'questionDb', '--collection', 'test', '--csv',
+//        '--fields', 'question,answers',
+//        '--out', 'test.csv'
+//    ]);
 }
 
 exports.test = test;

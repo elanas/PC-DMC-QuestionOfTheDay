@@ -22,7 +22,7 @@ router.post('/testPost', function(req, res) {
     console.log("I AM POSTING!!!!");
 
     db.saveResponse(req.body);
-//    db.exportToCSV();
+    db.exportToCSV();
     res.end();
 });
 
