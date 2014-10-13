@@ -32,6 +32,7 @@ var exportToCSV = function() {
 //        '--out', 'test.csv'
 //    ]);
     console.log(db.collections.count());
+    console.log("I am in the export function")
 }
 
 exports.test = test;
