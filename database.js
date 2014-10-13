@@ -28,11 +28,11 @@ var saveResponse = function(question) {
 var exportToCSV = function() {
     var x = ".." + "\\" + "test.csv";
     console.log(x);
-//    spawn('mongoexport', [
-//        '--db', 'questionDb', '--collection', 'test', '--csv',
-//        '--fields', 'question,answers',
-//        '--out', '..\test.csv'
-//    ]);
+    spawn('mongoexport', [
+        '--db', 'questionDb', '--collection', 'test', '--csv',
+        '--fields', 'question,answers',
+        '--out', x
+    ]);
 //    console.log(db.collections.count());
 //    console.log("I am in the export function")
 //    db['test'].find({});
