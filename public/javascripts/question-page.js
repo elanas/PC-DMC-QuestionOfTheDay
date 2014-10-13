@@ -17,7 +17,8 @@ var num = 1;
 //        var ran = (Math.random() * 1).toFixed(0)
 
 
-//        num = 0;
+        num = 0;
+
 
         $scope.q = $scope.questions.pool[num];
 //
