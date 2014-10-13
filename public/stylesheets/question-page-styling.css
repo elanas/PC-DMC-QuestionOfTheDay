@@ -26,11 +26,12 @@ body {
     background-color: #333;
     width: 626px;
     position: absolute;
-    left: 290px;
+    left: 300px;
     text-align: center;
     height: 88px;
     top: -4.5px;
     color: white;
+    border-radius: 3px;
 }
 
 .logo {
