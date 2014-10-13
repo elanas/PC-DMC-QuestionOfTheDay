@@ -26,20 +26,14 @@ var saveResponse = function(question) {
 }
 
 var exportToCSV = function() {
-//    spawn('mongoexport', [
-//        '--db', 'questionDb', '--collection', 'test', '--csv',
-//        '--fields', 'question,answers',
-//        '--out', 'test.csv'
-//    ]);
-//    console.log(db.collections.count());
+    spawn('mongoexport', [
+        '--db', 'questionDb', '--collection', 'test', '--csv',
+        '--fields', 'question,answers',
+        '--out', 'test.csv'
+    ]);
+    console.log(db.collections.count());
     console.log("I am in the export function")
-    var x = 0;
-    setTimeout(function() {
-        db['test'].find().forEach(function(doc) {
-            console.log(x);
-            x++;
-        })
-    }, 0);
+    db['test'].find({});
 
 }
 
