@@ -38,15 +38,21 @@ body {
     float:left;
     margin-left: 15%;
 
+    height: 88px;
+    background-color: #303030;
+    width: 146px;
+    margin-top: 16px;
+    border-radius: 3px;
+
 }
 
 .logo img {
-    height: 89px;
-    width: 137px;
+    height: 85px;
+    width: 139px;
     position: absolute;
-    margin-top: 1.5%;
+    margin-top: 0;
     border-radius: 3px;
-
+    left: 158px;
 }
 
 hr {
