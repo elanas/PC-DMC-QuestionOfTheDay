@@ -55,7 +55,7 @@
                 }).error(function() {
                     console.log("I failed to post, caused an error");
                 });
-//            $window.location.reload();
+            $window.location.reload();
 
         }
 
