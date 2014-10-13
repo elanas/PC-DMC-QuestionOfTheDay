@@ -21,6 +21,7 @@
     "angular": "~1.2.23",
     "angular-route": "latest",
     "bootstrap": "*",
-    "chartist": "*"
+    "chartist": "*",
+    "jquery": "*"
   }
 }
