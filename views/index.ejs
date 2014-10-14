@@ -14,7 +14,7 @@
 
         <div class="page-container">
             <div class="header">
-                <div class="logo" ng-hide="hidden" ng-class="{fadeout: startFadeout}">
+                <div class="logo">
                     <!--<div class="dmc-big">DMC</div>-->
                     <!--<div>Digital Media Center</div>-->
                     <img src="images/dmc-logo.png">
@@ -25,7 +25,7 @@
             </div>
             <hr>
 
-            <div class="question-container">
+            <div class="question-container" ng-hide="hidden" ng-class="{fadeout: startFadeout}">
                 <div class="question-text">
                     <!--Was the equipment you checked out the right tool for the job?-->
                     <!--For what purpose did you use DMC equipment?-->
@@ -37,7 +37,7 @@
             </div>
 
             <!--RESPONSE FOR YES/NO QUESTIONS-->
-            <div ng-show="q.type==0" class="response-container yes-no">
+            <div ng-show="q.type==0" class="response-container yes-no"  ng-hide="hidden" ng-class="{fadeout: startFadeout}">
                 <a ng-click="yesno = 'yes'" ng-class="{'button-selected': yesno == 'yes'}" class='button'>Yes</a>
                 <a ng-click="yesno = 'no'" ng-class="{'button-selected': yesno == 'no'}" class='button'>No</a>
             </div>
@@ -52,7 +52,7 @@
                 <!--<li><input type="checkbox" class="styled" /> Entertainment relaxation </li>-->
             <!--</ui>-->
 
-            <div ng-show="q.type == 1" class="response-container grid">
+            <div ng-show="q.type == 1" class="response-container grid"  ng-hide="hidden" ng-class="{fadeout: startFadeout}">
                 <a class='button button-check' ng-click="answersChecked[0] = !answersChecked[0]"
                     ng-class="{'button-selected':answersChecked[0] == true}">{{answers[0]}}</a>
                 <a class='button button-check' ng-click="answersChecked[1] = !answersChecked[1]"
