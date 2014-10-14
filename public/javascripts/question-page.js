@@ -62,12 +62,13 @@ var num = 1;
             $scope.startFadeout = true;
             setTimeout(function(){
                 $scope.hidden = true;
-            }, 3000);
+                $scope.startFadein = true;
+            }, 2000);
 
-            $scope.startFadein = true;
+//            $scope.startFadein = true;
             setTimeout(function() {
                 $scope.hidden = false;
-            }, 3000);
+            }, 2000);
 
 
 
