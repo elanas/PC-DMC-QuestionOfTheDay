@@ -62,7 +62,7 @@ var num = 1;
             $scope.startFadeout = true;
             setTimeout(function(){
                 $scope.hidden = true;
-                $scope.startFadeout = false;
+//                $scope.startFadeout = false;
 //
 //                $scope.startFadein = true;
             }, 2000);
