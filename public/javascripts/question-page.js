@@ -64,10 +64,10 @@ var num = 1;
 //                $scope.hidden = true;
 //            }, 2000);
 
-//            $(".response-container").css('visibility', 'hidden');
-//            setTimeout(function() {
-////                $(".response-container").css('visibility', 'visible');
-//            }, 50);
+            $(".response-container").css('visibility', 'hidden');
+            setTimeout(function() {
+//                $(".response-container").css('visibility', 'visible');
+            }, 50);
 
             $window.location.reload();
 
