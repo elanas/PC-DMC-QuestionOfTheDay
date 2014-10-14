@@ -46,10 +46,16 @@ body {
 
 }
 
-.fade{
+.fadeout{
     -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
     transition: opacity 2s;
     opacity: 0;
+}
+
+.fadein {
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
+    opacity: 1;
 }
 
 .logo img {

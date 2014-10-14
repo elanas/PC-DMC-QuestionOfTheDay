@@ -59,15 +59,24 @@ var num = 1;
                     console.log("I failed to post, caused an error");
                 });
 
-//            $scope.startFade = true;
+            $scope.startFadeout = true;
+            setTimeout(function(){
+                $scope.hidden = true;
+            }, 2000);
+
+            $scope.startFadein = true;
+            setTimeout(function() {
+                $scope.hidden = false;
+            }, 2000);
+
 //            setTimeout(function(){
-//                $scope.hidden = true;
+//                $scope.startFade = true;
 //            }, 2000);
 
-            $(".response-container").css('visibility', 'hidden');
-            setTimeout(function() {
-//                $(".response-container").css('visibility', 'visible');
-            }, 50);
+//            $(".response-container").css('visibility', 'hidden');
+//            setTimeout(function() {
+////                $(".response-container").css('visibility', 'visible');
+//            }, 50);
 
             $window.location.reload();
 
