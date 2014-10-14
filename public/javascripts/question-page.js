@@ -59,10 +59,10 @@ var num = 1;
                     console.log("I failed to post, caused an error");
                 });
 
-            $scope.startFade = true;
-            setTimeout(function(){
-                $scope.hidden = true;
-            }, 2000);
+//            $scope.startFade = true;
+//            setTimeout(function(){
+//                $scope.hidden = true;
+//            }, 2000);
 
 //            $(".response-container").css('visibility', 'hidden');
 //            setTimeout(function() {
