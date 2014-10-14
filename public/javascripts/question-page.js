@@ -66,10 +66,10 @@ var num = 1;
             }, 2000);
 
 
-            setTimeout(function() {
-                $scope.startFadein = true;
-                $scope.hidden = false;
-            }, 2000);
+//            setTimeout(function() {
+//                $scope.startFadein = true;
+//                $scope.hidden = false;
+//            }, 2000);
 
 
 
