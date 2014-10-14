@@ -60,7 +60,7 @@ var num = 1;
                 });
 
             $scope.startFade = true;
-            $timeout(function(){
+            setTimeout(function(){
                 $scope.hidden = true;
             }, 2000);
 
