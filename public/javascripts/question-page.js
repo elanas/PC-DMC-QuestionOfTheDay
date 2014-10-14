@@ -67,7 +67,7 @@ var num = 1;
 //                $scope.startFadeout = false;
 //
 //                $scope.startFadein = true;
-            }, 2000);
+            }, 1500);
 
 //            $scope.startFadein = true;
 //            setTimeout(function() {
