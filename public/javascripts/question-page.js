@@ -65,9 +65,8 @@ var num = 1;
 //                $scope.startFadein = true;
             }, 2000);
 
-
+//            $scope.startFadein = true;
 //            setTimeout(function() {
-//                $scope.startFadein = true;
 //                $scope.hidden = false;
 //            }, 2000);
 
