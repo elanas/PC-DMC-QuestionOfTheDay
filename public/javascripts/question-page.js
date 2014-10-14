@@ -63,15 +63,15 @@ var num = 1;
             setTimeout(function(){
                 $scope.hidden = true;
                 $scope.startFadeout = false;
-
+//
 //                $scope.startFadein = true;
             }, 2000);
 
-            $scope.startFadein = true;
-            setTimeout(function() {
-                $scope.hidden = false;
-                $scope.startFadein = false;
-            }, 2000);
+//            $scope.startFadein = true;
+//            setTimeout(function() {
+//                $scope.hidden = false;
+//                $scope.startFadein = false;
+//            }, 2000);
 
 
 
