@@ -62,6 +62,8 @@ var num = 1;
             $scope.startFadeout = true;
             setTimeout(function(){
                 $scope.hidden = true;
+                $window.location.reload();
+
 //                $scope.startFadeout = false;
 //
 //                $scope.startFadein = true;
@@ -84,7 +86,6 @@ var num = 1;
 ////                $(".response-container").css('visibility', 'visible');
 //            }, 50);
 
-            $window.location.reload();
 
 
         }
