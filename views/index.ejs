@@ -37,38 +37,40 @@
             </div>
 
             <!--RESPONSE FOR YES/NO QUESTIONS-->
-            <div ng-show="q.type==0" class="response-container yes-no"  ng-hide="hidden" ng-class="{fadeout: startFadeout}">
-                <a ng-click="yesno = 'yes'" ng-class="{'button-selected': yesno == 'yes'}" class='button'>Yes</a>
-                <a ng-click="yesno = 'no'" ng-class="{'button-selected': yesno == 'no'}" class='button'>No</a>
-            </div>
+            <div ng-hide="hidden" ng-class="{fadeout: startFadeout}">
+                <div ng-show="q.type==0" class="response-container yes-no">
+                    <a ng-click="yesno = 'yes'" ng-class="{'button-selected': yesno == 'yes'}" class='button'>Yes</a>
+                    <a ng-click="yesno = 'no'" ng-class="{'button-selected': yesno == 'no'}" class='button'>No</a>
+                </div>
 
-            <!--<ui class="response-container checkbox-grid">-->
-                <!--<li><input type="checkbox" class="styled" /> Student group activity </li>-->
-                <!--<li><input type="checkbox" class="styled" /> To enhance campus community </li>-->
-                <!--<li><input type="checkbox" class="styled" /> Baltimore community service </li>-->
-                <!--<li><input type="checkbox" class="styled" /> Self-promotion </li>-->
-                <!--<li><input type="checkbox" class="styled" /> Academic </li>-->
-                <!--<li><input type="checkbox" class="styled" /> Personal learning </li>-->
-                <!--<li><input type="checkbox" class="styled" /> Entertainment relaxation </li>-->
-            <!--</ui>-->
+                <!--<ui class="response-container checkbox-grid">-->
+                    <!--<li><input type="checkbox" class="styled" /> Student group activity </li>-->
+                    <!--<li><input type="checkbox" class="styled" /> To enhance campus community </li>-->
+                    <!--<li><input type="checkbox" class="styled" /> Baltimore community service </li>-->
+                    <!--<li><input type="checkbox" class="styled" /> Self-promotion </li>-->
+                    <!--<li><input type="checkbox" class="styled" /> Academic </li>-->
+                    <!--<li><input type="checkbox" class="styled" /> Personal learning </li>-->
+                    <!--<li><input type="checkbox" class="styled" /> Entertainment relaxation </li>-->
+                <!--</ui>-->
 
-            <div ng-show="q.type == 1" class="response-container grid"  ng-hide="hidden" ng-class="{fadeout: startFadeout}">
-                <a class='button button-check' ng-click="answersChecked[0] = !answersChecked[0]"
-                    ng-class="{'button-selected':answersChecked[0] == true}">{{answers[0]}}</a>
-                <a class='button button-check' ng-click="answersChecked[1] = !answersChecked[1]"
-                   ng-class="{'button-selected':answersChecked[1] == true}">{{answers[1]}}</a>
-                <a class='button button-check' ng-click="answersChecked[2] = !answersChecked[2]"
-                   ng-class="{'button-selected':answersChecked[2] == true}">{{answers[2]}}</a>
-                <a class='button button-check' ng-click="answersChecked[3] = !answersChecked[3]"
-                   ng-class="{'button-selected':answersChecked[3] == true}">{{answers[3]}}</a>
-                <a class='button button-check' ng-click="answersChecked[4] = !answersChecked[4]"
-                   ng-class="{'button-selected':answersChecked[4] == true}">{{answers[4]}}</a>
-                <a class='button button-check' ng-click="answersChecked[5] = !answersChecked[5]"
-                   ng-class="{'button-selected':answersChecked[5] == true}">{{answers[5]}}</a>
-                <a class='button button-check' ng-click="answersChecked[6] = !answersChecked[6]"
-                   ng-class="{'button-selected':answersChecked[6] == true}">{{answers[6]}}</a>
+                <div ng-show="q.type == 1" class="response-container grid">
+                    <a class='button button-check' ng-click="answersChecked[0] = !answersChecked[0]"
+                        ng-class="{'button-selected':answersChecked[0] == true}">{{answers[0]}}</a>
+                    <a class='button button-check' ng-click="answersChecked[1] = !answersChecked[1]"
+                       ng-class="{'button-selected':answersChecked[1] == true}">{{answers[1]}}</a>
+                    <a class='button button-check' ng-click="answersChecked[2] = !answersChecked[2]"
+                       ng-class="{'button-selected':answersChecked[2] == true}">{{answers[2]}}</a>
+                    <a class='button button-check' ng-click="answersChecked[3] = !answersChecked[3]"
+                       ng-class="{'button-selected':answersChecked[3] == true}">{{answers[3]}}</a>
+                    <a class='button button-check' ng-click="answersChecked[4] = !answersChecked[4]"
+                       ng-class="{'button-selected':answersChecked[4] == true}">{{answers[4]}}</a>
+                    <a class='button button-check' ng-click="answersChecked[5] = !answersChecked[5]"
+                       ng-class="{'button-selected':answersChecked[5] == true}">{{answers[5]}}</a>
+                    <a class='button button-check' ng-click="answersChecked[6] = !answersChecked[6]"
+                       ng-class="{'button-selected':answersChecked[6] == true}">{{answers[6]}}</a>
 
-                <!--<a class='button button-check'>yes</a>-->
+                    <!--<a class='button button-check'>yes</a>-->
+                </div>
             </div>
 
             <!--<a ng-click="refresh()" class="button submit-button"><span class="submit-text">Submit</span></a>-->
