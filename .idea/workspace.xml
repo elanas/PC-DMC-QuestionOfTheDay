@@ -27,17 +27,17 @@
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.375" vertical-offset="135" max-vertical-offset="1635">
-              <caret line="16" column="70" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="70" />
+              <caret line="16" column="107" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="107" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question-page-styling.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="question-page-styling.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/question-page-styling.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45833334" vertical-offset="690" max-vertical-offset="3015">
-              <caret line="57" column="8" selection-start-line="55" selection-start-column="3" selection-end-line="57" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="3015">
+              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question-page.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="question-page.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/question-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1845">
-              <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="70" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.778098" vertical-offset="810" max-vertical-offset="1890">
+              <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -135,9 +135,9 @@
         <option value="$PROJECT_DIR$/test.csv" />
         <option value="$PROJECT_DIR$/database.js" />
         <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/public/stylesheets/question-page-styling.css" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/javascripts/question-page.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/question-page-styling.css" />
       </list>
     </option>
   </component>
@@ -799,26 +799,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/question-page-styling.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="3015">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375" vertical-offset="135" max-vertical-offset="1635">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="70" />
+          <caret line="16" column="107" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="107" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/question-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1845">
-          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="70" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/question-page-styling.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45833334" vertical-offset="690" max-vertical-offset="3015">
-          <caret line="57" column="8" selection-start-line="55" selection-start-column="3" selection-end-line="57" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.778098" vertical-offset="810" max-vertical-offset="1890">
+          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
           <folding />
         </state>
       </provider>
