@@ -65,8 +65,8 @@ var num = 1;
                 $scope.startFadein = true;
                 setTimeout(function() {
                     $scope.hidden = false;
-                }, 2000);
-            }, 2000);
+                }, 1000);
+            }, 5000);
 
 
 
