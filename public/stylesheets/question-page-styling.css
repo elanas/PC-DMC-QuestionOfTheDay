@@ -197,4 +197,6 @@ hr {
 
 .thank-you {
     position: absolute;
+    text-align: center;
+    color: white;
 }
