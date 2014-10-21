@@ -1,7 +1,7 @@
 body {
     background-color: black;
     /*font-family: Arial Rounded MT Bold;*/
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 .page-container {
@@ -82,7 +82,7 @@ hr {
 
 .question-container div {
     /*font-family: Arial Rounded MT Bold;*/
-    font-family: cursive;
+    font-family: sans-serif;
     text-align: center;
     font-size: 29px;
 }
