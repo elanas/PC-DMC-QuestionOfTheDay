@@ -33,6 +33,10 @@ body {
     border-radius: 6px;
 }
 
+.question-header p {
+    margin-top: 5px;
+}
+
 .logo {
     float:left;
     margin-left: 12%;
