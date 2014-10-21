@@ -11,7 +11,9 @@
     </head>
 
     <body ng-controller="questionPageController as ctrl">
-
+        <div class="thank-you" ng-hide="!hidden">
+            <h2>Thank You</h2>
+        </div>
         <div class="page-container" ng-hide="hidden" ng-class="{fadeout: startFadeout}">
             <div class="header">
                 <div class="logo">
@@ -34,10 +36,6 @@
                     <!--eventually will pull from database of questions-->
 
                 </div>
-            </div>
-
-            <div class="thank-you" ng-hide="!hidden">
-                <h2>Thank You</h2>
             </div>
 
             <!--RESPONSE FOR YES/NO QUESTIONS-->
