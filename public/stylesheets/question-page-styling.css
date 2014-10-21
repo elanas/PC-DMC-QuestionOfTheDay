@@ -34,7 +34,7 @@ body {
 }
 
 .question-header p {
-    margin-top: 5px;
+    margin-top: 11px;
 }
 
 .logo {
@@ -80,8 +80,6 @@ hr {
     width: 53%;
     margin: 3% 25%;
 
-
-
 }
 
 .question-container div {
@@ -89,6 +87,7 @@ hr {
     font-family: sans-serif;
     text-align: center;
     font-size: 29px;
+    font-weight: 700;
 }
 
 .response-container {
