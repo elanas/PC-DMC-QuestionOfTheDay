@@ -194,3 +194,7 @@ hr {
     right: 33%;
     bottom: 30%;
 }
+
+.thank-you {
+    position: absolute;
+}
