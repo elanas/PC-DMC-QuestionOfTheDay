@@ -53,12 +53,12 @@ body {
     float:left;
     margin-left: 12%;
 
-    height: 88px;
+    /*height: 88px;*/
     /*background-color: #303030;*/
-    background-color: transparent;
-    width: 146px;
-    margin-top: 16px;
-    border-radius: 6px;
+    /*background-color: transparent;*/
+    /*width: 146px;*/
+    /*margin-top: 16px;*/
+    /*border-radius: 6px;*/
     opacity: 1;
 
 }
