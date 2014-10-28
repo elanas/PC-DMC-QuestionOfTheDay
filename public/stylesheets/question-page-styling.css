@@ -83,7 +83,7 @@ body {
     position: absolute;
     margin-top: 0;
     /*border-radius: 3px;*/
-    left: 140px;
+    left: 130px;
     top: -24px;
 }
 
@@ -94,7 +94,7 @@ hr {
 
 .question-container {
     width: 53%;
-    margin: 4% 25%;
+    margin: 4% 23%;
     font-family: bodyfont;
 
 }
