@@ -12,7 +12,7 @@ var num = 1;
 //        this.questions = {question: 'question1'}
 
         $scope.questions = {pool:[{q:'Was the equipment you checked out the right tool for the job?', type:0, a:[]},
-            {q:' For what purpose did you use DMC equipment?', type:1, a:[]}]};
+            {q:' For what purpose(s) did you use DMC equipment?', type:1, a:[]}]};
 
         var ran = (Math.random() * 1).toFixed(0)
 
