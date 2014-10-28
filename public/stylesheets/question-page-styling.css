@@ -214,7 +214,8 @@ hr {
 .submit-text {
     vertical-align: middle;
     position: absolute;
-    right: 45.5%;
+    font-weight: bold;
+    right: 35.5%;
     bottom: 25%;
 }
 
