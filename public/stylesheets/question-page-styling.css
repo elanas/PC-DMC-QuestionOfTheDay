@@ -76,12 +76,12 @@ body {
 }
 
 .logo img {
-    height: 169px;
-    width: 155px;
+    height: 170px;
+    width: 160px;
     position: absolute;
     margin-top: 0;
     /*border-radius: 3px;*/
-    left: 129px;
+    left: 140px;
     top: -23px;
 }
 
