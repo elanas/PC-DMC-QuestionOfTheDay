@@ -43,8 +43,8 @@
       <file leaf-file-name="question-page-styling.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/question-page-styling.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54545456" vertical-offset="378" max-vertical-offset="3570">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.11931818" vertical-offset="2943" max-vertical-offset="3570">
+              <caret line="199" column="17" selection-start-line="199" selection-start-column="17" selection-end-line="199" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -838,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/question-page-styling.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54545456" vertical-offset="378" max-vertical-offset="3570">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.11931818" vertical-offset="2943" max-vertical-offset="3570">
+          <caret line="199" column="17" selection-start-line="199" selection-start-column="17" selection-end-line="199" selection-end-column="17" />
           <folding />
         </state>
       </provider>
