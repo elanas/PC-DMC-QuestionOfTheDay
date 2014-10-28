@@ -119,8 +119,8 @@ var num = 1;
 
 })();
 
-document.onmousedown = function(e) {
-    if (e.button == 2) {
-        return false
-    }
-}
+//document.onmousedown = function(e) {
+//    if (e.button == 2) {
+//        return false
+//    }
+//}
