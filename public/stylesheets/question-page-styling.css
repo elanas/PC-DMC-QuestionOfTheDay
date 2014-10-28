@@ -1,7 +1,17 @@
+@font-face {
+    font-family: bodyfont;
+    src: url('../fonts/static/Static.otf');
+}
+
+@font-face {
+    font-family: headingfont;
+    src: url('../fonts/fv_almelo/FV_Almelo.ttf');
+}
+
 body {
     background-color: black;
     /*font-family: Arial Rounded MT Bold;*/
-    font-family: sans-serif;
+    font-family: headingfont;
 }
 
 .page-container {
@@ -84,7 +94,7 @@ hr {
 
 .question-container div {
     /*font-family: Arial Rounded MT Bold;*/
-    font-family: sans-serif;
+    font-family: bodyfont;
     text-align: center;
     font-size: 29px;
     font-weight: 700;
@@ -125,7 +135,7 @@ hr {
     color: #303030;
     font-size: 35px;
     /*font-family: Arial Rounded MT Bold, serif;*/
-    font-family: cursive;
+    font-family: bodyfont;
     text-decoration: none;
     vertical-align: middle;
 }
