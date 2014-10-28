@@ -77,12 +77,12 @@ body {
 
 .logo img {
     height: 170px;
-    width: 150px;
+    width: 155px;
     position: absolute;
     margin-top: 0;
     /*border-radius: 3px;*/
     left: 129px;
-    top: 10px;
+    top: 0px;
 }
 
 hr {
