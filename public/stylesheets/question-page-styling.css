@@ -76,13 +76,13 @@ body {
 }
 
 .logo img {
-    height: 170px;
+    height: 169px;
     width: 155px;
     position: absolute;
     margin-top: 0;
     /*border-radius: 3px;*/
     left: 129px;
-    top: -25px;
+    top: -23px;
 }
 
 hr {
