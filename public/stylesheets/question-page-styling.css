@@ -31,7 +31,7 @@ body {
     margin-right: 16%;
     font-size: 53px;
     font-weight: bold;
-
+    font-family: headingfont;
     background-color: #303030;
     width: 626px;
     position: absolute;
@@ -45,6 +45,8 @@ body {
 
 .question-header p {
     margin-top: 11px;
+    font-family: headingfont;
+
 }
 
 .logo {
@@ -89,6 +91,7 @@ hr {
 .question-container {
     width: 53%;
     margin: 4% 25%;
+    font-family: bodyfont;
 
 }
 
@@ -103,6 +106,8 @@ hr {
 .response-container {
     margin: 7% 36.5%;
     width: 50%;
+    font-family: bodyfont;
+
 }
 
 .yes-no .button {
@@ -215,6 +220,7 @@ hr {
     z-index: 10;
     right: 39%;
     top: 38%;
+    font-family: headingfont;
 }
 
 .thank-you h2 {
