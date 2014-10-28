@@ -94,7 +94,8 @@ hr {
 
 .question-container {
     width: 53%;
-    margin: 4% 20%;
+    margin: 4% 25%;
+    margin-right: 100px;
     font-family: bodyfont;
 
 }
