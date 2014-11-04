@@ -191,7 +191,7 @@ hr {
 }
 
 .button-selected {
-    background: -webkit-gradient(linear, left top, left bottom, from(indianred), to(#eb433d)) !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(greenyellow), to(limegreen)) !important;
     border: red 1px solid;
 }
 
