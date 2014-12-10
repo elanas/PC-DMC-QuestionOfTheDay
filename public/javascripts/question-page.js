@@ -20,23 +20,14 @@ var num = 1;
         $scope.q = $scope.questions.pool[ran];
 //
         $scope.yesno = '';
-        this.test1 = function() {
-            $http.post('/testPost', this.questions).success(function() {
-                console.log('test1 posting');
-            });
-        }
 
-        this.test2 = function() {
-            console.log('test2')
-        }
+        $scope.firstQuestion = true;
 
 
         $scope.answers = ['Student group', 'Self-promotion', 'Academic', 'Personal learning',
                             'Community service', 'Entertainment relaxation', 'Campus community'];
 
         $scope.answersChecked = [0,0,0,0,0,0,0]
-
-        console.log("outside refresh");
 
         $scope.testprint = function() {
             console.log("button clicked!");
