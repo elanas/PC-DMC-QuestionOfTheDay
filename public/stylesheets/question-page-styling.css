@@ -112,6 +112,10 @@ hr {
     margin-top: 6%;
 }
 
+.first-question .first-question-text {
+    margin-top: 3%;
+}
+
 .response-container {
     margin: 7% 36.5%;
     width: 50%;
