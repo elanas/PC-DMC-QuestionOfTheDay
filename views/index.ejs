@@ -34,6 +34,9 @@
                     <a ng-click="yesno = 'no'" ng-class="{'button-selected': yesno == 'no'}" class='button'>No</a>
                 </div>
 
+                <a ng-click="continue()" class="button submit-button"><span class="submit-text">Continue</span></a>
+
+
             </div>
             <div class="question-container" ng-if="!firstQuestion" ng-hide="hidden" ng-class="{fadeout: startFadeout}">
                 <div class="question-text" >
@@ -84,7 +87,7 @@
             </div>
 
             <!--<a ng-click="refresh()" class="button submit-button"><span class="submit-text">Submit</span></a>-->
-            <a ng-click="testprint()" class="button submit-button"><span class="submit-text">Submit</span></a>
+            <a ng-show="!firstQuestion" ng-click="submit()" class="button submit-button"><span class="submit-text">Submit</span></a>
 
             <!--<div class="question-container">-->
                 <!--<!--Insert a Question here.-->

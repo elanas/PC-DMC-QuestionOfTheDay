@@ -29,7 +29,12 @@ var num = 1;
 
         $scope.answersChecked = [0,0,0,0,0,0,0]
 
-        $scope.testprint = function() {
+        $scope.continue = function() {
+            $scope.firstQuestion = false;
+            console.log("pressed continue");
+        }
+
+        $scope.submit = function() {
             console.log("button clicked!");
             if ($scope.q.type == 0) {
 //                   console.log($scope.yesno);
