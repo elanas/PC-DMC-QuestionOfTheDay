@@ -10,8 +10,10 @@
         <script src="javascripts/question-page.js"></script>
     </head>
 
-    <body ng-controller="questionPageController as ctrl" oncontextmenu="return false">
-        <div class="thank-you" ng-show="startFadeout">
+    <body ng-controller="questionPageController as ctrl">
+    <!--<body ng-controller="questionPageController as ctrl" oncontextmenu="return false">-->
+
+    <div class="thank-you" ng-show="startFadeout">
             <h2>Thank You</h2>
         </div>
         <div class="page-container" ng-hide="hidden" ng-class="{fadeout: startFadeout}">
