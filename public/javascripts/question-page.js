@@ -20,6 +20,7 @@ var num = 1;
         $scope.q = $scope.questions.pool[ran];
 //
         $scope.yesno = '';
+        $scope.inout = '';
 
         $scope.firstQuestion = true;
 
