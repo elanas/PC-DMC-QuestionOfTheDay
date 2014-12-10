@@ -26,11 +26,17 @@
                 </div>
             </div>
             <hr>
-            <div class="first-question" ng-show="firstQuestion">
-                <h1>test</h1>
+            <div class="first-question question-container" ng-show="firstQuestion">
+                <div class="question-text" >Are you checking out or returning? </div>
+
+                <div ng-show="firstQuestion" class="response-container yes-no">
+                    <a ng-click="yesno = 'yes'" ng-class="{'button-selected': yesno == 'yes'}" class='button'>Yes</a>
+                    <a ng-click="yesno = 'no'" ng-class="{'button-selected': yesno == 'no'}" class='button'>No</a>
+                </div>
+
             </div>
-            <div class="question-container" ng-show="!firstQuestion" ng-hide="hidden" ng-class="{fadeout: startFadeout}">
-                <div class="question-text">
+            <div class="question-container" ng-if="!firstQuestion" ng-hide="hidden" ng-class="{fadeout: startFadeout}">
+                <div class="question-text" >
                     <!--Was the equipment you checked out the right tool for the job?-->
                     <!--For what purpose did you use DMC equipment?-->
                     {{q.q}}
@@ -41,7 +47,7 @@
             </div>
 
             <!--RESPONSE FOR YES/NO QUESTIONS-->
-            <div ng-hide="hidden" ng-class="{fadeout: startFadeout}">
+            <div ng-if="!firstQuestion" ng-hide="hidden" ng-class="{fadeout: startFadeout}">
                 <div ng-show="q.type==0" class="response-container yes-no">
                     <a ng-click="yesno = 'yes'" ng-class="{'button-selected': yesno == 'yes'}" class='button'>Yes</a>
                     <a ng-click="yesno = 'no'" ng-class="{'button-selected': yesno == 'no'}" class='button'>No</a>
