@@ -129,7 +129,7 @@ hr {
 .in-out .button {
     font-size: 25px;
     width: 100px;
-    /*height: 20px;*/
+    margin-left: 100px;
     display: block;
     float: left;
     text-align: center;
