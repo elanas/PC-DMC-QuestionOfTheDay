@@ -122,6 +122,14 @@ hr {
     text-align: center;
 }
 
+.in-out .button {
+    width: 200px;
+    height: 77px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
 .button:last-child {
     margin-left: 35px;}
 
