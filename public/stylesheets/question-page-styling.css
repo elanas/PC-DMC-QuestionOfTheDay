@@ -243,6 +243,15 @@ hr {
     bottom: 23.5%;
 }
 
+.continue-text {
+    vertical-align: middle;
+    position: absolute;
+    font-weight: bold;
+    right: 30.5%;
+    bottom: 23.5%;
+    top:12px;
+}
+
 .thank-you {
     position: absolute;
     text-align: center;
