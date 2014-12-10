@@ -122,10 +122,14 @@ hr {
     text-align: center;
 }
 
+.in-out {
+    display: inline;
+}
+
 .in-out .button {
     font-size: 25px;
     width: 100px;
-    height: 20px;
+    /*height: 20px;*/
     display: block;
     float: left;
     text-align: center;
