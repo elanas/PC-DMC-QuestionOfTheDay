@@ -237,6 +237,23 @@ hr {
 
 }
 
+.continue-button {
+    /* margin-left: 0 !important; */
+    font-size: 30px;
+    padding: 5px;
+    position: absolute;
+    /* bottom: 20px; */
+    /* right: 458px; */
+    /*background: -webkit-linear-gradient(top, limegreen, #39D481);*/
+    background: -webkit-linear-gradient(top, limegreen, #39D481);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    bottom: 15%;
+    left: 39%;
+
+}
+
 .submit-text {
     vertical-align: middle;
     position: absolute;
