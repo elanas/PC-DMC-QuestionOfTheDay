@@ -33,9 +33,9 @@ var num = 1;
         $scope.continue = function() {
             $scope.firstQuestion = false;
             if($scope.inout == 'in') {
-                $scope.q = $scope.questions.pool[0];;
-            } else {
                 $scope.q = $scope.questions.pool[1];;
+            } else {
+                $scope.q = $scope.questions.pool[0];;
             }
             console.log("pressed continue");
         }

@@ -32,8 +32,8 @@
                 <div class="question-text first-question-text" >Are you checking items out or returning? </div>
 
                 <div ng-show="firstQuestion" class="response-container in-out">
-                    <a ng-click="inout = 'in'" ng-class="{'button-selected': inout == 'in'}" class='button'>Returning Items</a>
                     <a ng-click="inout = 'out'" ng-class="{'button-selected': inout == 'out'}" class='button'>Checking Out</a>
+                    <a ng-click="inout = 'in'" ng-class="{'button-selected': inout == 'in'}" class='button'>Returning Items</a>
                 </div>
 
                 <a ng-click="continue()" class="button continue-button"><span class="continue-text">Continue</span></a>
