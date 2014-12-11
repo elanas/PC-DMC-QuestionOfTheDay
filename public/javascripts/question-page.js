@@ -14,10 +14,10 @@ var num = 1;
         $scope.questions = {pool:[{q:'Was the equipment you checked out the right tool for the job?', type:0, a:[]},
             {q:' For what purpose(s) did you use DMC equipment?', type:1, a:[]}]};
 
-        var ran = (Math.random() * 1).toFixed(0)
+//        var ran = (Math.random() * 1).toFixed(0)
 
 
-        $scope.q = $scope.questions.pool[ran];
+//        $scope.q = $scope.questions.pool[ran];
 //
         $scope.yesno = '';
         $scope.inout = '';
